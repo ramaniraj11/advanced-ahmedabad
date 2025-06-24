@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="report_purchase_quotation_company_1" model="ir.actions.report">
+        <field name="name">Request for Quotation QUALITY ENTERPRISES (10-11)</field>
+        <field name="model">purchase.order</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">aa_custom_charges.report_purchasequotation_company_1</field>
+        <field name="report_file">aa_custom_charges.report_purchasequotation_company_1</field>
+        <field name="print_report_name">'Request for Quotation - %s' % (object.name)</field>
+        <field name="binding_model_id" ref="purchase.model_purchase_order"/>
+        <field name="binding_type">report</field>
+    </record>
+    <record id="report_purchase_quotation_company_2" model="ir.actions.report">
+        <field name="name">Request for Quotation Adityaa Enterprises</field>
+        <field name="model">purchase.order</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">aa_custom_charges.report_purchasequotation_company_2</field>
+        <field name="report_file">aa_custom_charges.report_purchasequotation_company_2</field>
+        <field name="print_report_name">'Request for Quotation - %s' % (object.name)</field>
+        <field name="binding_model_id" ref="purchase.model_purchase_order"/>
+        <field name="binding_type">report</field>
+    </record>
+    <record id="report_purchase_quotation_company_3" model="ir.actions.report">
+        <field name="name">Request for Quotation D.M ENTERPRISE (22-23)</field>
+        <field name="model">purchase.order</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">aa_custom_charges.report_purchasequotation_company_3</field>
+        <field name="report_file">aa_custom_charges.report_purchasequotation_company_3</field>
+        <field name="print_report_name">'Request for Quotation - %s' % (object.name)</field>
+        <field name="binding_model_id" ref="purchase.model_purchase_order"/>
+        <field name="binding_type">report</field>
+    </record>
+    <record id="report_purchase_quotation_company_4" model="ir.actions.report">
+        <field name="name">Request for Quotation Company 4</field>
+        <field name="model">purchase.order</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">aa_custom_charges.report_purchasequotation_company_4</field>
+        <field name="report_file">aa_custom_charges.report_purchasequotation_company_4</field>
+        <field name="print_report_name">'Request for Quotation - %s' % (object.name)</field>
+        <field name="binding_model_id" ref="purchase.model_purchase_order"/>
+        <field name="binding_type">report</field>
+    </record>
+    <record id="report_purchase_quotation_company_5" model="ir.actions.report">
+        <field name="name">Request for Quotation Company 5</field>
+        <field name="model">purchase.order</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">aa_custom_charges.report_purchasequotation_company_5</field>
+        <field name="report_file">aa_custom_charges.report_purchasequotation_company_5</field>
+        <field name="print_report_name">'Request for Quotation - %s' % (object.name)</field>
+        <field name="binding_model_id" ref="purchase.model_purchase_order"/>
+        <field name="binding_type">report</field>
+    </record>
+    <record id="report_purchase_quotation_company_6" model="ir.actions.report">
+        <field name="name">Request for Quotation Company 6</field>
+        <field name="model">purchase.order</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">aa_custom_charges.report_purchasequotation_company_6</field>
+        <field name="report_file">aa_custom_charges.report_purchasequotation_company_6</field>
+        <field name="print_report_name">'Request for Quotation - %s' % (object.name)</field>
+        <field name="binding_model_id" ref="purchase.model_purchase_order"/>
+        <field name="binding_type">report</field>
+    </record>
+</odoo>
