@@ -13,7 +13,6 @@
         'report/ir_actions_report.xml',
         'report/ir_actions_report_templates.xml',
         'report/purchase_quotation_templates.xml',
-        'report/purchase_reports.xml'
     ],
     'installable': True,
     'auto_install': False,
