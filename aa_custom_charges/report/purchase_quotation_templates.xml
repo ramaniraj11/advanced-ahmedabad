@@ -41,6 +41,8 @@
                             <th name="th_description">
                                 <strong>Description</strong>
                             </th>
+                            <th name="th_hsn" class="text-end text-nowrap">HSN</th>
+                            <th name="th_part_number" class="text-end text-nowrap">Part Number</th>
                             <th name="th_expected_date" class="text-center">
                                 <strong>Expected Date</strong>
                             </th>
@@ -55,6 +57,12 @@
                                 <t t-if="not order_line.display_type">
                                     <td id="product">
                                         <span t-field="order_line.name"/>
+                                    </td>
+                                    <td name="th_hsn" class="text-end text-nowrap">
+                                        <span t-field="order_line.product_id.hsn_code"/>
+                                    </td>
+                                    <td name="td_priceunit" class="text-end text-nowrap">
+                                        <span t-field="order_line.product_id.part_number"/>
                                     </td>
                                     <td class="text-center">
                                         <span t-field="order_line.date_planned"/>
@@ -143,6 +151,8 @@
                             <th name="th_description">
                                 <strong>Description</strong>
                             </th>
+                            <th name="th_hsn" class="text-end text-nowrap">HSN</th>
+                            <th name="th_part_number" class="text-end text-nowrap">Part Number</th>
                             <th name="th_expected_date" class="text-center">
                                 <strong>Expected Date</strong>
                             </th>
@@ -157,6 +167,12 @@
                                 <t t-if="not order_line.display_type">
                                     <td id="product">
                                         <span t-field="order_line.name"/>
+                                    </td>
+                                    <td name="th_hsn" class="text-end text-nowrap">
+                                        <span t-field="order_line.product_id.hsn_code"/>
+                                    </td>
+                                    <td name="td_priceunit" class="text-end text-nowrap">
+                                        <span t-field="order_line.product_id.part_number"/>
                                     </td>
                                     <td class="text-center">
                                         <span t-field="order_line.date_planned"/>
@@ -246,6 +262,8 @@
                             <th name="th_description">
                                 <strong>Description</strong>
                             </th>
+                            <th name="th_hsn" class="text-end text-nowrap">HSN</th>
+                            <th name="th_part_number" class="text-end text-nowrap">Part Number</th>
                             <th name="th_expected_date" class="text-center">
                                 <strong>Expected Date</strong>
                             </th>
@@ -260,6 +278,12 @@
                                 <t t-if="not order_line.display_type">
                                     <td id="product">
                                         <span t-field="order_line.name"/>
+                                    </td>
+                                    <td name="th_hsn" class="text-end text-nowrap">
+                                        <span t-field="order_line.product_id.hsn_code"/>
+                                    </td>
+                                    <td name="td_priceunit" class="text-end text-nowrap">
+                                        <span t-field="order_line.product_id.part_number"/>
                                     </td>
                                     <td class="text-center">
                                         <span t-field="order_line.date_planned"/>
@@ -349,6 +373,8 @@
                             <th name="th_description">
                                 <strong>Description</strong>
                             </th>
+                            <th name="th_hsn" class="text-end text-nowrap">HSN</th>
+                            <th name="th_part_number" class="text-end text-nowrap">Part Number</th>
                             <th name="th_expected_date" class="text-center">
                                 <strong>Expected Date</strong>
                             </th>
@@ -363,6 +389,12 @@
                                 <t t-if="not order_line.display_type">
                                     <td id="product">
                                         <span t-field="order_line.name"/>
+                                    </td>
+                                    <td name="th_hsn" class="text-end text-nowrap">
+                                        <span t-field="order_line.product_id.hsn_code"/>
+                                    </td>
+                                    <td name="td_priceunit" class="text-end text-nowrap">
+                                        <span t-field="order_line.product_id.part_number"/>
                                     </td>
                                     <td class="text-center">
                                         <span t-field="order_line.date_planned"/>
@@ -451,6 +483,8 @@
                             <th name="th_description">
                                 <strong>Description</strong>
                             </th>
+                            <th name="th_hsn" class="text-end text-nowrap">HSN</th>
+                            <th name="th_part_number" class="text-end text-nowrap">Part Number</th>
                             <th name="th_expected_date" class="text-center">
                                 <strong>Expected Date</strong>
                             </th>
@@ -465,6 +499,12 @@
                                 <t t-if="not order_line.display_type">
                                     <td id="product">
                                         <span t-field="order_line.name"/>
+                                    </td>
+                                    <td name="th_hsn" class="text-end text-nowrap">
+                                        <span t-field="order_line.product_id.hsn_code"/>
+                                    </td>
+                                    <td name="td_priceunit" class="text-end text-nowrap">
+                                        <span t-field="order_line.product_id.part_number"/>
                                     </td>
                                     <td class="text-center">
                                         <span t-field="order_line.date_planned"/>
@@ -554,6 +594,8 @@
                             <th name="th_description">
                                 <strong>Description</strong>
                             </th>
+                            <th name="th_hsn" class="text-end text-nowrap">HSN</th>
+                            <th name="th_part_number" class="text-end text-nowrap">Part Number</th>
                             <th name="th_expected_date" class="text-center">
                                 <strong>Expected Date</strong>
                             </th>
@@ -568,6 +610,12 @@
                                 <t t-if="not order_line.display_type">
                                     <td id="product">
                                         <span t-field="order_line.name"/>
+                                    </td>
+                                    <td name="th_hsn" class="text-end text-nowrap">
+                                        <span t-field="order_line.product_id.hsn_code"/>
+                                    </td>
+                                    <td name="td_priceunit" class="text-end text-nowrap">
+                                        <span t-field="order_line.product_id.part_number"/>
                                     </td>
                                     <td class="text-center">
                                         <span t-field="order_line.date_planned"/>

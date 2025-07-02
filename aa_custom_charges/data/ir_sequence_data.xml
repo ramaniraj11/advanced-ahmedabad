@@ -15,4 +15,19 @@
         <field name="padding">4</field>
         <field name="company_id" eval="False"/>
     </record>
+    <record id="seq_purchase_order_ats" model="ir.sequence">
+        <field name="name">Purchase Order ATS</field>
+        <field name="code">purchase.order.ats</field>
+        <field name="prefix">ATS-Q-%(day)s%(month)s%(year)s-</field>
+        <field name="padding">4</field>
+        <field name="company_id" eval="False"/>
+    </record>
+
+    <record id="seq_purchase_order_acr" model="ir.sequence">
+        <field name="name">Purchase Order ACR</field>
+        <field name="code">purchase.order.acr</field>
+        <field name="prefix">ACR-Q-%(day)s%(month)s%(year)s-</field>
+        <field name="padding">4</field>
+        <field name="company_id" eval="False"/>
+    </record>
 </odoo>

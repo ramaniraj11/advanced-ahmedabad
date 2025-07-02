@@ -7,6 +7,7 @@
     'depends': ['sale_management', 'purchase'],
     "data": [
         'views/sale_order_views.xml',
+        'views/purchase_order_views.xml',
         'views/product_template_form_view.xml',
         'data/ir_sequence_data.xml',
         'report/ir_actions_report.xml',
