@@ -14,4 +14,18 @@
             </td>
         </xpath>
     </template>
+     <template id="report_purchasequotation_document" inherit_id="purchase.report_purchaseorder_document">
+        <xpath expr="//th[@name='th_description']" position="after">
+            <th name="th_hsn" class="text-end text-nowrap"><strong>HSN</strong></th>
+            <th name="th_part_number" class="text-end text-nowrap"><strong>Part Number</strong></th>
+        </xpath>
+        <xpath expr="//td" position="after">
+            <td name="th_hsn" class="text-end text-nowrap">
+                <span t-field="order_line.product_id.hsn_code"/>
+            </td>
+            <td name="td_priceunit" class="text-end text-nowrap">
+                <span t-field="order_line.product_id.part_number"/>
+            </td>
+        </xpath>
+    </template>
 </odoo>
