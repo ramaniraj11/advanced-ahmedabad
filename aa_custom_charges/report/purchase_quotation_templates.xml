@@ -21,10 +21,10 @@
         </xpath>
         <xpath expr="//td" position="after">
             <td name="th_hsn" class="text-end text-nowrap">
-                <span t-field="order_line.product_id.hsn_code"/>
+                <span t-field="line.product_id.hsn_code"/>
             </td>
             <td name="td_priceunit" class="text-end text-nowrap">
-                <span t-field="order_line.product_id.part_number"/>
+                <span t-field="line.product_id.part_number"/>
             </td>
         </xpath>
     </template>
