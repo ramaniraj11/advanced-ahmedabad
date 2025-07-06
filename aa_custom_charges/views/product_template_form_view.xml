@@ -7,7 +7,6 @@
         <field name="arch" type="xml">
             <!-- Add under Category field inside General Information -->
             <xpath expr="//field[@name='categ_id']" position="after">
-                <field name="hsn_code"/>
                 <field name="part_number"/>
                 <field name="item_make"/>
                 <field name="model_number"/>
