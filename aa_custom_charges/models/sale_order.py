@@ -47,3 +47,8 @@ class SaleOrder(models.Model):
                 order.name = new_name
 
         return super(SaleOrder, self).write(vals)
+
+class SaleOrderLine(models.Model):
+    _inherit = "sale.order.line"
+
+    sequence = fields.Integer(string="Sequence", default=1)
