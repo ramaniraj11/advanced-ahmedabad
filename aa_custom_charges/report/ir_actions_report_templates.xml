@@ -86,7 +86,7 @@
                     <!-- In case we want to repeat the header, remove "display: table-row-group" -->
                     <thead style="display: table-row-group">
                         <tr>
-                            <th name="sequence" class="text-start">Sequence</th>
+                            <th name="sequence" class="text-start">Sr. No.</th>
                             <th name="th_description" class="text-start">Description</th>
                             <th name="th_quantity" class="text-end text-nowrap">Quantity</th>
                             <th name="th_hsn" class="text-end text-nowrap">HSN</th>
